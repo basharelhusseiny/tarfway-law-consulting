@@ -59,3 +59,42 @@ body {
 .animate-spin-slow {
   animation: spin-slow 18s linear infinite;
 }
+
+/* ── Testimonials Swiper ── */
+.testimonials-swiper {
+  padding-bottom: 56px !important;
+}
+
+/* Equal height slides */
+.testimonials-swiper .swiper-wrapper {
+  align-items: stretch !important;
+}
+
+.testimonials-swiper .swiper-slide {
+  height: auto !important;
+}
+
+.testimonials-swiper .swiper-pagination {
+  bottom: 4px !important;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  background-color: var(--gold) !important;
+  opacity: 0.3 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background-color: var(--gold) !important;
+  opacity: 1 !important;
+  width: 28px !important;
+  height: 8px !important;
+  border-radius: 999px !important;
+}
+
+.testimonials-swiper .swiper-pagination-bullet:hover {
+  background-color: var(--gold-light) !important;
+  opacity: 0.7 !important;
+}

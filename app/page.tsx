@@ -4,6 +4,7 @@ import {
   VisionSection,
   WhyChooseUsSection,
 } from "@/components/pages/home";
+import { TestimonialsSection } from "@/components/ui";
 
 const HomePage = async () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = async () => {
       <WhyChooseUsSection />
       <VisionSection />
       <ServicesSection />
+      <TestimonialsSection />
     </div>
   );
 };
