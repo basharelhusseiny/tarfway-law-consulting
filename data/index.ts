@@ -1,4 +1,16 @@
-import { ShieldCheck, Target, Clock, Lightbulb, Users } from "lucide-react";
+import {
+  ShieldCheck,
+  Target,
+  Clock,
+  Lightbulb,
+  Users,
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export const academicQualifications = [
   {
@@ -91,4 +103,69 @@ export const visionPillars = [
   { icon: Clock, text: "السرعة والدقة في إنجاز الأعمال" },
   { icon: Lightbulb, text: "تقديم حلول قانونية مبتكرة" },
   { icon: Users, text: "بناء علاقات طويلة الأمد مع العملاء" },
+];
+
+export const contactInfo = [
+  {
+    icon: MapPin,
+    label: "العنوان",
+    value: "الطالبية – فيصل – الجيزة",
+    href: "https://maps.google.com/?q=الطالبية+فيصل+الجيزة",
+    tag: null,
+  },
+  {
+    icon: Phone,
+    label: "الهاتف",
+    value: "+965 6519 9404",
+    href: "tel:+96565199404",
+    tag: "الكويت",
+  },
+  {
+    icon: Phone,
+    label: "الهاتف",
+    value: "+20 155 060 1700",
+    href: "tel:+201550601700",
+    tag: "مصر",
+  },
+  {
+    icon: Mail,
+    label: "البريد الإلكتروني",
+    value: "tarfawymohamed614@gmail.com",
+    href: "mailto:tarfawymohamed614@gmail.com",
+    tag: null,
+  },
+];
+
+export const socialLinks = [
+  {
+    icon: Facebook,
+    label: "Facebook",
+    href: "https://www.facebook.com/TarfawyLawConsulting",
+    color: "#1877F2",
+  },
+  {
+    icon: Instagram,
+    label: "Instagram",
+    href: "https://www.instagram.com/mohamed_tarfawy_",
+    color: "#E4405F",
+  },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/mohamed-tarfawy-525972332",
+    color: "#0A66C2",
+  },
+];
+
+export const WHATSAPP_NUMBER = "96565199404";
+
+export const serviceOptions = [
+  "استشارة قانونية",
+  "خدمات الشركات",
+  "التقاضي والتمثيل القانوني",
+  "حل النزاعات بالوسائل البديلة",
+  "الخدمات العقارية",
+  "الملكية الفكرية",
+  "الخدمات الضريبية",
+  "أخرى",
 ];

@@ -1,5 +1,19 @@
+import {
+  ContactHeroSection,
+  ContactMainSection,
+  ContactMapSection,
+  WhatsAppFloatingButton,
+} from "@/components/pages/contact";
+
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return (
+    <>
+      <ContactHeroSection />
+      <ContactMainSection />
+      <ContactMapSection />
+      <WhatsAppFloatingButton />
+    </>
+  );
 };
 
 export default ContactPage;
