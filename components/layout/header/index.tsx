@@ -60,7 +60,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             {/* Desktop WhatsApp Button */}
             <Link
-              href="https://wa.me/+905444644422"
+              href="https://wa.me/+96565199404"
               target="_blank"
               className="hidden md:flex items-center gap-2 px-6 py-2.5 rounded-full 
                 bg-linear-to-r from-(--gold) to-(--gold-dark) text-white font-bold text-sm 

@@ -89,7 +89,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
             {/* CTA Button in Mobile Menu */}
             <div className="mt-auto p-5">
               <Link
-                href="https://wa.me/+905444644422"
+                href="https://wa.me/96565199404"
                 target="_blank"
                 onClick={() => onClose(false)}
                 className="flex items-center justify-center gap-3 w-full py-4 rounded-2xl 
