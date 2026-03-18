@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Scale, Phone, Calendar } from "lucide-react";
 
 const stats = [
-  { value: "١٥+", label: "سنة خبرة" },
+  { value: "١٩+", label: "سنة خبرة" },
   { value: "٥٠٠+", label: "قضية ناجحة" },
   { value: "٩٨٪", label: "نسبة رضا العملاء" },
 ];
