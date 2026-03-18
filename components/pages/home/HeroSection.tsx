@@ -180,7 +180,7 @@ const HeroSection = () => {
               </Button>
 
               <Button
-                href="https://wa.me/+905444222644422"
+                href="https://wa.me/+96565199404"
                 target="_blank"
                 variant="gold"
                 showShimmer={true}
