@@ -13,9 +13,9 @@ interface ClientListProps {
 }
 
 const ClientList = ({ title, icon: Icon, clients }: ClientListProps) => (
-  <div className="rounded-3xl border border-(--primary-color)/8 overflow-hidden shadow-[0_2px_20px_rgba(9,25,49,0.04)]">
+  <div className="rounded-3xl border border-(--primary-color)/15 overflow-hidden shadow-[0_2px_20px_rgba(9,25,49,0.04)]">
     <div className="bg-(--primary-color) px-6 py-4 flex items-center gap-3">
-      <div className="w-8 h-8 rounded-xl bg-(--gold)/15 flex items-center justify-center">
+      <div className="w-8 h-8 rounded-xl bg-(--gold)/25 flex items-center justify-center">
         <Icon className="w-4 h-4 text-(--gold)" />
       </div>
       <h3 className="font-black text-white text-lg">{title}</h3>
@@ -24,7 +24,7 @@ const ClientList = ({ title, icon: Icon, clients }: ClientListProps) => (
       {clients.map((client, i) => (
         <div
           key={i}
-          className="flex items-center gap-3 p-3 rounded-xl border border-(--primary-color)/6 hover:border-(--gold)/25 hover:bg-(--gold)/3 transition-all duration-300"
+          className="flex items-center gap-3 p-3 rounded-xl border border-(--primary-color)/10 hover:border-(--gold)/25 bg-(--gold)/5 hover:bg-(--gold)/15 transition-all duration-300"
         >
           <div className="w-2 h-2 rounded-full bg-(--gold) shrink-0" />
           <p className="text-(--primary-color)/80 font-semibold">{client}</p>
@@ -91,9 +91,9 @@ const AboutClientsSection = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-8"
         >
-          <div className="rounded-2xl p-5 border border-(--gold)/20 bg-(--gold)/5 flex items-start gap-4">
+          <div className="rounded-2xl p-5 border border-(--gold)/20 bg-(--gold)/8 flex items-start gap-4">
             <Users className="w-6 h-6 text-(--gold-dark) shrink-0 mt-0.5" />
-            <p className="text-(--primary-color)/70 leading-relaxed text-sm sm:text-base">
+            <p className="font-medium text-(--primary-color)/70 leading-relaxed text-sm sm:text-base">
               تم التعامل مع العملاء الكويتيين من خلال التعاون مع مكاتب محاماة
               كويتية كبرى مثل{" "}
               <span className="font-bold text-(--primary-color)">

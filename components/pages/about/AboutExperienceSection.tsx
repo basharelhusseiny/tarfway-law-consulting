@@ -19,7 +19,7 @@ const AboutExperienceSection = () => {
         <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-(--gold)/8 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-[400px] h-[400px] bg-(--primary-color)/5 rounded-full blur-3xl" />
         <div
-          className="absolute inset-0 opacity-[0.04]"
+          className="absolute inset-0 opacity-[0.1]"
           style={{
             backgroundImage:
               "radial-gradient(circle, var(--primary-color) 1.5px, transparent 1.5px)",
@@ -39,7 +39,7 @@ const AboutExperienceSection = () => {
           {/* Timeline vertical line */}
           <div className="absolute right-[22px] lg:right-1/2 lg:-translate-x-0.5 top-0 bottom-0 w-0.5 bg-linear-to-b from-(--gold) via-(--gold)/30 to-transparent" />
 
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-4">
             {experiences.map((exp, i) => {
               const isEven = i % 2 === 0;
               return (
@@ -59,14 +59,14 @@ const AboutExperienceSection = () => {
                   {/* Content Card */}
                   <div
                     className={`group w-full lg:w-[45%] p-5 rounded-2xl
-                      border border-(--primary-color)/8 bg-white
-                      hover:border-(--gold)/25 hover:shadow-[0_8px_30px_rgba(9,25,49,0.06)]
+                      border border-(--gold)/25 bg-white
+                      hover:border-(--gold)/55 hover:shadow-[0_8px_30px_rgba(9,25,49,0.06)]
                       transition-all duration-400`}
                   >
                     <p className="font-black text-(--primary-color) text-base leading-snug">
                       {exp.role}
                     </p>
-                    <p className="text-sm text-(--gold-dark) font-bold mt-1">
+                    <p className="text-base text-(--gold-dark) font-bold mt-1">
                       {exp.period}
                     </p>
                     <div className="w-8 h-0.5 bg-linear-to-r from-(--gold) to-(--gold-dark) rounded-full mt-3 group-hover:w-16 transition-all duration-500" />

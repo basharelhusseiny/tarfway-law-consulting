@@ -15,9 +15,9 @@ const AboutPage = () => {
       <AboutVisionSection />
       <AboutFounderSection />
       <AboutExperienceSection />
-      <AboutKeyCasesSection />
       <AboutPublicationsSection />
       <AboutClientsSection />
+      <AboutKeyCasesSection />
     </div>
   );
 };

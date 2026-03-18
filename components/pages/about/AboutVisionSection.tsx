@@ -43,15 +43,15 @@ const AboutVisionSection = () => {
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="flex flex-col gap-4"
+            className="flex flex-col gap-4 order-2 lg:order-1"
           >
-            <p className="text-(--primary-color)/70 leading-loose text-base sm:text-lg mb-2">
+            <p className="text-(--primary-color)/80 leading-loose text-base sm:text-lg mb-2">
               كما تهدف المؤسسة إلى الانتقال من النموذج التقليدي القائم على العمل
               الفردي إلى نموذج حديث يعتمد على الشراكات المهنية والعمل الجماعي
               بين المتخصصين في مختلف فروع القانون.
             </p>
 
-            <p className="text-sm font-bold text-(--gold-dark) tracking-wider uppercase mb-2">
+            <p className="text-lg font-bold text-(--gold-dark) tracking-wider uppercase mb-2">
               نهجنا يقوم على
             </p>
 
@@ -74,38 +74,38 @@ const AboutVisionSection = () => {
                     group-hover:from-(--gold)/15 group-hover:to-(--gold)/10 group-hover:border-(--gold)/20
                     transition-all"
                   >
-                    <Icon className="w-5 h-5 text-(--gold-dark) group-hover:text-(--primary-color)/60 transition-colors" />
+                    <Icon className="w-6 h-6 text-(--gold-dark) group-hover:text-(--primary-color)/60 transition-colors" />
                   </div>
-                  <p className="text-base font-semibold text-(--primary-color)/80 group-hover:text-(--primary-color) transition-colors">
+                  <p className="sm:text-lg font-semibold text-(--primary-color)/80 group-hover:text-(--primary-color) transition-colors">
                     {pillar.text}
                   </p>
-                  <CheckCircle className="w-5 h-5 text-(--gold)/40 group-hover:text-(--gold) transition-colors mr-auto shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-(--gold) transition-colors mr-auto shrink-0" />
                 </motion.div>
               );
             })}
           </motion.div>
 
-          {/* Image — desktop only */}
+          {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="relative hidden lg:block"
+            className="relative order-1 lg:order-2"
           >
-            <div className="absolute -inset-3 rounded-4xl border border-(--gold)/10 -rotate-2" />
-            <div className="absolute -inset-1 rounded-4xl border border-(--gold)/5 rotate-1" />
+            <div className="absolute -inset-2 md:-inset-3 rounded-4xl border border-(--gold)/30 -rotate-2" />
+            <div className="absolute -inset-1 rounded-4xl border border-(--gold)/30 rotate-1" />
             <div className="relative rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(9,25,49,0.10)] w-full">
               <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-(--gold) via-(--gold-light) to-(--gold-dark) z-10" />
               <Image
                 src="/logo/dr-trafawy-img.jpg"
                 alt="مكتب مؤسسة الطرفاوي"
                 width={460}
-                height={420}
-                className="w-full h-auto object-cover"
+                height={320}
+                className="w-full h-80 sm:h-176 object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 h-20 bg-linear-to-t from-(--primary-color)/50 to-transparent" />
               <div className="absolute bottom-4 right-4 left-4">
-                <p className="text-white font-bold">
+                <p className="text-white text-xl font-bold">
                   رؤية نحو مستقبل قانوني أفضل
                 </p>
               </div>
