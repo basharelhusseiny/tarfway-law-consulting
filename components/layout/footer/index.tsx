@@ -15,7 +15,7 @@ import {
 const NAV_LINKS = [
   { label: "الرئيسية", href: "/" },
   { label: "من نحن", href: "/about" },
-  { label: "المدونة", href: "/blog" },
+  { label: "المقالات", href: "/blog" },
   { label: "تواصل معنا", href: "/contact" },
 ];
 
