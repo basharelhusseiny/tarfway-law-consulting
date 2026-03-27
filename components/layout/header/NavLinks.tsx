@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 const navMap: Record<string, string> = {
   home: "الرئيسية",
   blog: "المقالات",
+  books: "الكتب المنشورة",
   about: "من نحن",
   contact: "اتصل بنا",
 };

@@ -25,7 +25,7 @@ export default async function RootLayout({
       >
         <ScrollToTop />
         <Header />
-        <main className="grow mt-[78px]">{children}</main>
+        <main className="grow mt-19.5">{children}</main>
         <Footer />
       </body>
     </html>
