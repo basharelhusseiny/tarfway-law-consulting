@@ -998,6 +998,7 @@ export const blogsData = [
     link: "https://egyls.com/%d9%87%d9%84-%d9%8a%d9%86%d8%ac%d8%ad-%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d8%b9-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%85%d9%84-%d8%aa%d8%b4%d8%b1%d9%8a%d8%b9/",
   },
   {
+    id: 28,
     title: "الطبيعة القانونية لاتحاد الكونسورتيوم",
     category: "تجاري - بنوك",
     date: "17/8/2025",
@@ -1534,7 +1535,7 @@ export const blogsData = [
     link: "https://egyls.com/%d8%b6%d8%a7%d8%a8%d8%b7-%d8%a7%d9%84%d8%a5%d8%b3%d9%86%d8%a7%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d8%b3%d8%a7%d8%b7%d8%a9-%d9%83%d9%88%d8%b3%d9%8a%d9%84%d8%a9-%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d8%a9/",
   },
   {
-    id: 25,
+    id: 26,
     title: "تسوية المنازعات التجارية بالوساطة في ظل الأزمات الاقتصادية",
     category: "مقالات اخري",
     date: "7/12/2025",
@@ -1603,7 +1604,7 @@ export const blogsData = [
     link: "https://egyls.com/%d8%aa%d8%b3%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%86%d8%a7%d8%b2%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d9%88%d8%b3%d8%a7%d8%b7%d8%a9-%d9%81%d9%8a/",
   },
   {
-    id: 26,
+    id: 27,
     title: "الوساطة كوسيلة لتسوية المنازعات",
     category: "مقالات اخري",
     date: "4/3/2022",
